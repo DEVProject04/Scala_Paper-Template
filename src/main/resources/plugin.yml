@@ -1,0 +1,10 @@
+name: ${project.name}
+author: $pluginAuthor
+version: $pluginVersion
+api-version: 1.16
+main: $pluginMain
+
+commands:
+  example:
+    description: This is template command.
+    usage: /example test
