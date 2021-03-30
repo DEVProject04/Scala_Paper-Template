@@ -1,2 +1,1 @@
-rootProject.name = "Minecraft-Plugin_Template"
-
+rootProject.name = "Scala-Paper_Template"
