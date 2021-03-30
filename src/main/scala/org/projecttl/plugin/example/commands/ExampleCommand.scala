@@ -12,13 +12,13 @@ class ExampleCommand extends CommandExecutor {
       val player: Player = sender.asInstanceOf[Player]
 
       if (command.getName.equalsIgnoreCase("example")) {
-        args.length match {
-          case 0 =>
-            player.sendMessage("Example Test!")
-
-          case 1 =>
+        if (args.length == 0) {
+          player.sendMessage("Example Test!")
+          return true
+        } else if (args.length > 0) {
             if (args(0).equalsIgnoreCase("test")) {
               player.sendMessage(s"Hello, ${player.getName}!")
+              return true
             }
         }
       }
