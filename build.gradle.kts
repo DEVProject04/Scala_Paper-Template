@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.scala-lang:scala-library:2.13.3")
+    implementation("org.scala-lang:scala-library:2.13.5")
     compileOnly("com.destroystokyo.paper:paper-api:1.16.4-R0.1-SNAPSHOT")
 }
 
