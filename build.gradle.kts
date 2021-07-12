@@ -1,6 +1,6 @@
 plugins {
     scala
-    id("com.github.johnrengelman.shadow") version "6.1.0"
+    id("com.github.johnrengelman.shadow") version "7.0.0"
     `maven-publish`
 }
 
@@ -17,7 +17,7 @@ repositories {
 
 dependencies {
     implementation("org.scala-lang:scala-library:2.13.5")
-    compileOnly("com.destroystokyo.paper:paper-api:1.16.4-R0.1-SNAPSHOT")
+    compileOnly("com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT")
 }
 
 tasks {
